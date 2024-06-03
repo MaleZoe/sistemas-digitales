@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Nivel de Estudio</title>
+</head>
+<body>
+    <h1>Formulario de Nivel de Estudio</h1>
+    <form action="pagina2.php" method="post">
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label>Nivel de Estudio:</label><br>
+        <input type="radio" id="primarios" name="nivel_estudio" value="Primarios" required>
+        <label for="primarios">Primarios</label><br>
+        
+        <input type="radio" id="secundarios" name="nivel_estudio" value="Secundarios" required>
+        <label for="secundarios">Secundarios</label><br>
+        
+        <input type="radio" id="terciario" name="nivel_estudio" value="Terciario" required>
+        <label for="terciario">Terciario</label><br>
+        
+        <input type="radio" id="universitario" name="nivel_estudio" value="Universitario" required>
+        <label for="universitario">Universitario</label><br>
+        
+        <input type="radio" id="sin_estudios" name="nivel_estudio" value="Sin estudios" required>
+        <label for="sin_estudios">Sin estudios</label><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
